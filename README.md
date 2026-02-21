@@ -8,9 +8,13 @@
 Flash firmware:
 
 1.Keep both halves powered on.
+
 2. Plug in right half. > press the physical reset button(located on the inner sides) twice quickly. > That will open a new directory on your computer called nice nano. > drag and drop the settings_reset file into that directory. (after transfer it will auto unmount and may give an error. Ignore this error and continue.) > after transfer unplug right half.
+
 3. Plug in left half. > press physical reset button twice quickly. > Drag and drop same settings_reset file into directory. > after transfer leave plugged in.
+
 4. Press physical reset button twice. > drag and drop lily58_left firmware into directory. > after transfer unplug.
+
 5. Plug in right half > press reset button twice again > drag and drop lily58_right firmware into directory.
 
 

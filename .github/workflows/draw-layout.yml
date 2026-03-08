@@ -19,8 +19,7 @@ jobs:
 
       - name: Parse and Draw
         run: |
-          # Replace 'config/your_keyboard.keymap' with your actual filename
-          keymap parse -z config/your_keyboard.keymap > layout.yaml
+          keymap parse -z config/lily58.keymap > layout.yaml
           keymap draw layout.yaml > layout.svg
 
       - name: Commit and Push SVG

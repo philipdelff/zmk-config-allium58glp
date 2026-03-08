@@ -62,7 +62,7 @@
         #binding-cells = <0>;
 
         bindings = <&kp LS(LC(F21))>, <&kp LS(LC(F22))>;
-        mods = <(LCTRL|MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LCTRL|MOD_LSFT|MOD_RSFT)>;
       };
 
     };

@@ -44,22 +44,22 @@ layers:
   - V
   - B
   - MUTE
-  - ']'
+  - Navigate
   - N
   - M
   - ','
   - .
   - /
-  - {t: Sft+Ctl+F21, s: Sft+Ctl+F22}
+  - {t: F21, s: F22}
   - LALT
-  - Lower
+  - LALT
   - ENTER
   - LCTRL
   - SPACE
-  - Raise
-  - LEFT ALT
+  - Coding
+  - Navigate
   - RCTRL
-  Lower:
+  Coding:
   - ESCAPE
   - F1
   - F2
@@ -111,14 +111,14 @@ layers:
   - '0'
   - Sft+Ctl+F22
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - Ctl+ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Raise:
+  Navigate:
   - LGUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -141,7 +141,7 @@ layers:
   - HOME
   - UP
   - END
-  - '0'
+  - PAGE UP
   - DEL
   - F1
   - F2
@@ -153,7 +153,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - RIGHT
+  - PAGE DOWN
   - {t: ▽, type: trans}
   - F7
   - F8
@@ -161,8 +161,8 @@ layers:
   - F10
   - F11
   - F12
-  - BRI UP
   - BRI DN
+  - {t: BRI UP, type: held}
   - KP PLUS
   - '-'
   - '='
@@ -171,10 +171,10 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+ENTER
+  - Alt+ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Adjust:

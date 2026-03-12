@@ -44,13 +44,13 @@ layers:
   - V
   - B
   - MUTE
-  - Navigate
+  - UNDO
   - N
   - M
   - ','
   - .
   - /
-  - {t: F21, s: F22}
+  - Ctl+F12
   - LALT
   - LALT
   - ENTER
@@ -143,11 +143,11 @@ layers:
   - END
   - PAGE UP
   - DEL
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
+  - F13
+  - F14
+  - F15
+  - F16
+  - F17
   - CAPSLOCK
   - PAGE DOWN
   - LEFT
@@ -155,14 +155,14 @@ layers:
   - RIGHT
   - PAGE DOWN
   - {t: ▽, type: trans}
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
+  - F18
+  - F19
+  - F20
+  - F21
+  - F22
+  - F23
   - BRI DN
-  - {t: BRI UP, type: held}
+  - BRI UP
   - KP PLUS
   - '-'
   - '='
@@ -175,7 +175,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   Adjust:
   - {t: ▽, type: trans}

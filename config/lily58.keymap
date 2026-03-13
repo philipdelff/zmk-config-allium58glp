@@ -55,7 +55,7 @@
                 ,<&macro_release &kp LALT>;
         };
 
-        ctrl_c_space: emacs_undo {
+	emacs_undo: emacs_undo {
             compatible = "zmk,behavior-macro";
             label = "EMACS_UNDO";
             #binding-cells = <0>;

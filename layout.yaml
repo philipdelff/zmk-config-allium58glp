@@ -37,21 +37,21 @@ layers:
   - L
   - ;
   - ''''
-  - LCTRL
+  - (MOD LCTL | MOD LALT | MOD LSFT | MOD LGUI)
   - Z
   - X
   - C
   - V
   - B
   - MUTE
-  - UNDO
+  - '&emacs_undo'
   - N
   - M
   - ','
   - .
   - /
-  - Ctl+F12
-  - LALT
+  - '&ctrl_c_space'
+  - LGUI
   - LALT
   - ENTER
   - LCTRL

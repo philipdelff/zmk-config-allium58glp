@@ -72,7 +72,6 @@
     behaviors {
       bspc_del: bspc_del {
         compatible = "zmk,behavior-mod-morph";
-        label = "BSPC_DEL";
         #binding-cells = <0>;
 
         bindings = <&kp BACKSPACE>, <&kp DELETE>;
@@ -82,7 +81,6 @@
 
       f21_f22: f21_f22 {
         compatible = "zmk,behavior-mod-morph";
-        label = "F21_F22";
         #binding-cells = <0>;
 
         bindings = <&kp F21>, <&kp F22>;
@@ -92,12 +90,11 @@
 
     oshift: oshift {
         compatible = "zmk,behavior-hold-tap";
-        label = "OSHIFT";
-        #binding-cells = <0>;
+        #binding-cells = <2>;
         flavor = "tap-preferred";
         tapping-term-ms = <200>;
         quick-tap-ms = <150>;
-        bindings = <&sk LSHIFT>, <&kp LSHIFT>;
+        bindings = <&kp>, <&sk>;
       };
     };
 

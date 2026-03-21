@@ -90,7 +90,6 @@
       };
 
 
-// tap or hold for shift
     oshift: oshift {
         compatible = "zmk,behavior-hold-tap";
         label = "OSHIFT";
@@ -99,10 +98,7 @@
         tapping-term-ms = <200>;
         quick-tap-ms = <150>;
         bindings = <&sk LSHIFT>, <&kp LSHIFT>;
-	
-
-};
-
+      };
     };
 
 

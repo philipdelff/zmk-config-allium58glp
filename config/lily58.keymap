@@ -88,7 +88,7 @@
 	mods = <(MOD_LCTL|MOD_LSFT|MOD_RSFT)>;
       };
 
-    };
+   };
 
 
 
@@ -124,10 +124,10 @@
 // |       |     |     |      |      |      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
-&kp ESCAPE      &kp F1        &kp F2        &kp F3        &kp F4          &kp F5                             &kp F6            &kp F7             &kp F8         &kp F9     &kp F10        &kp F11
-&kp GRAVE       &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR      &kp PRCNT                          &kp CARET         &kp AMPS           &kp ASTRK      &kp FSLH   &kp LT          &kp F12
-&kp LS(GRAVE)   &kp LEFT_BRACE&kp RIGHT_BRACE &kp EQUAL   &kp PLUS        &kp MINUS                          &kp BACKSLASH     &kp LEFT_BRACKET   &kp RIGHT_BRACKET &kp LPAR &kp RPAR    &kp PIPE
-&kp GRAVE       &kp N1  &kp N2  &kp LEFT_BRACE    &kp RIGHT_BRACE &kp N6   &kp C_VOL_DN    &kp C_VOL_UP      &kp N7           &kp LT      &kp GT  &kp N9         &kp N0      &kp LS(LC(F12))
+&kp ESCAPE      &kp F1        &kp F2        &kp F3        &kp F4          &kp F5                    &kp F6            &kp F7            &kp F8         &kp F9     &kp F10        &kp F11
+&kp TAB       &kp EXCL      &kp AT          &kp HASH      &kp DOLLAR      &kp PRCNT                 &kp CARET         &kp AMPS          &kp ASTRK      &kp FSLH   &kp LT          &kp F12
+&sk LSHIFT   &kp LEFT_BRACE &kp RIGHT_BRACE &kp EQUAL   &kp PLUS        &kp MINUS                    &kp BACKSLASH    &kp LEFT_BRACKET   &kp RIGHT_BRACKET &kp LPAR &kp RPAR    &kp PIPE
+&kp GRAVE       &kp N1      &kp N2          &kp GRAVE    &kp LS(GRAVE) &kp N6   &kp C_VOL_DN  &kp C_VOL_UP    &kp N7  &kp LT      &kp GT  &kp N9         &kp N0      &kp LS(LC(F12))
                                             &trans        &trans          &kp LC(ENTER)  &trans    &trans    &trans    &trans    &trans
             >;
 

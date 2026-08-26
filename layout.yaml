@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: lily58}
 layers:
   Base:
-  - '`'
+  - ESCAPE
   - '1'
   - '2'
   - '3'
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - {t: BACKSPACE, s: DELETE}
+  - ''''
   - LSHIFT
   - A
   - S
@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - ;
-  - ''''
+  - {t: BACKSPACE, s: DELETE}
   - (MOD LCTL | MOD LALT | MOD LSFT | MOD LGUI)
   - Z
   - X

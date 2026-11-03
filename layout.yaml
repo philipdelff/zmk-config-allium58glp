@@ -137,10 +137,10 @@ layers:
   - '3'
   - '4'
   - '5'
-  - PAGE UP
   - HOME
+  - PAGE UP
   - UP
-  - END
+  - PAGE DOWN
   - PAGE UP
   - DEL
   - F13
@@ -149,7 +149,7 @@ layers:
   - F16
   - F17
   - CAPSLOCK
-  - PAGE DOWN
+  - END
   - LEFT
   - DOWN
   - RIGHT

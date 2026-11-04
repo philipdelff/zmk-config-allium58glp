@@ -156,11 +156,11 @@ layers:
   - PAGE DOWN
   - {t: ▽, type: trans}
   - F18
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - BT CLR
   - F19
-  - F20
-  - F21
-  - F22
-  - F23
   - BRI DN
   - BRI UP
   - KP PLUS
